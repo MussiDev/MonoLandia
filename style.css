@@ -1,0 +1,514 @@
+
+/*TODO*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-colored {
+    background-color:#8b8065be;
+    transition: all 1s ease; 
+}
+.nav-transparent {
+    background-color:transparent;
+    transition: all 1s ease; 
+}
+
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    
+}
+
+
+/*IMAGENES*/
+
+
+
+/*ENLACES*/
+a {
+    
+    text-decoration: none;
+    
+}
+.active {
+    
+    color: #3d3d3d!important;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+/*MENU DE NAVEGACION*/
+
+.span1 {
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    background-color: #000000;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+header {
+    background-image:linear-gradient(120deg, rgba(250, 207, 68, 0.308) 0%, rgba(92, 84, 8, 0.294) 100%), url(./img/monkey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    height: 800px;
+}
+.landia {
+    color: #ffd982;
+}
+.coltext {
+    margin-top: 200px!important;
+}
+
+.nav-item {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-item > a:hover {
+    color: #0d0d0e;
+    border-bottom: 2px solid #ffd982;
+}
+
+#parrafo1 {
+    font-size: 25px!important;
+    color: #3d3d3d;
+    margin-bottom: 30px;
+    font-family: 'Francois One', sans-serif;
+}
+#cabecera1 {
+    font-size: 100px;
+    font-family: 'Francois One', sans-serif;
+}
+.empezar {
+    text-decoration: none;
+    border: 2px solid #ffd982;
+    background-color: #ffd982;
+    border-radius: 6px;
+    padding: 10px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Francois One', sans-serif;
+}
+
+.empezar:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+/*SEGUNDA SECCION*/
+
+
+.mono {
+    background-color: #aa8e47;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#cabecera2 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+.mono p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.mono img{
+    width: 100%;
+    border: 1px solid #ffffff;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+strong {
+    color: #ffffff;
+}
+
+#btn-que{
+    text-decoration: none;
+    border: 2px solid #ffd982;
+    background-color: #ffd982;
+    border-radius: 6px;
+    padding: 10px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Francois One', sans-serif;
+    
+}
+#btn-que:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/*TERCERA SECCION */
+.tercero {
+    background-color: #927428;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.fas {
+    color: #3d3d3d;
+    background-color: #ffd982;
+    border: 9px solid #ffd982;
+    border-radius: 10px;
+}
+
+.card-body a{
+    text-decoration: none;
+    border: 2px solid #ffd982;
+    background-color: #ffd982;
+    border-radius: 6px;
+    padding: 10px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Francois One', sans-serif;
+}
+#col3 {
+    margin-top: 100px!important;
+}
+.card {
+    height: 550px!important;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+.card-body > a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+.card-title{
+    font-size: 25px;
+    color: #000000;
+}
+/*CUARTA SECCION*/
+
+.Multimedia {
+    background-color: rgb(116, 90, 26);
+    font-family: 'Lato', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Multimedia h3{
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0 0 50px 0;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #534626;
+}
+.social {
+    text-align: center;
+}
+.social p{
+    color: #ffffff!important;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.social h3{
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.links i {
+    color: #ffffff;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.links i:hover {
+    color: #ffd982;
+}
+
+
+
+/*Caracteristicas segunda pagina*/
+
+
+.longevidad {
+    background-color: #aa8e47;
+    padding-top: 150px;
+    
+}
+.longevidad h1 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+
+.longevidad p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.longevidad img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+/**/
+.comportamiento {
+    background-color: #8f783d;
+}
+
+.comportamiento p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.comportamiento img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+.desplazamiento {
+    background-color: #aa8e47;
+}
+
+.desplazamiento p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    
+}
+.desplazamiento img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+.humanos {
+    background-color: #8f783d;
+}
+
+.humanos p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.humanos img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+.fuentes {
+    background-color: #6d5a29;
+    font-family: 'Francois One', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*Habitat tercera pagina*/
+
+.habitat {
+    background-color: #aa8e47;
+    padding-top: 50px;
+    
+}
+.habitat h1 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+
+.habitat p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.habitat img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+.habitat2 {
+    background-color: #8f783d;
+}
+
+.habitat2 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.habitat2 img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+.habitat3 {
+    background-color: #aa8e47;
+}
+
+.habitat3 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    
+}
+.habitat3 img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+
+/*Pagina de Alimentacion*/
+
+.alimentacion {
+    background-color: #aa8e47;
+    padding-top: 50px;
+    
+}
+.alimentacion h1 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+
+.alimentacion p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.alimentacion img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+.alimentacion2 {
+    background-color: #8f783d;
+}
+
+.alimentacion2 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.alimentacion2 img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+
+.alimentacion3 {
+    background-color: #aa8e47;
+}
+
+.alimentacion3 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    
+}
+.alimentacion3 img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+.alimentacion4 {
+    background-color: #8f783d;
+}
+
+.alimentacion4 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.alimentacion4 img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+
+/*PAGINA DE QUE ES EL MONO*/
+
+.monoquees {
+    background-color: #aa8e47;
+    padding-top: 50px;
+    
+}
+.monoquees h1 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+
+.monoquees p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.monoquees img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+.monoquees2 {
+    background-color: #8f783d;
+}
+
+.monoquees2 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.monoquees2 img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+
+.monoquees3 {
+    background-color: #aa8e47;
+}
+
+.monoquees3 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    
+}
+.monoquees3 img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+
+.monoquees4 {
+    background-color: #8f783d;
+}
+
+.monoquees4 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.monoquees4 img {
+    width: 100%;
+    border: 6px solid #ffd982!important;
+    border-radius: 10px!important;
+}
+

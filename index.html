@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina web destinada a informar a los usuarios sobre los monos y lo relacionado a ellos">
+    <meta name="keywords" content="Monos, paginas web, informacion sobre monos, que es un  mono, chimpance, macaco">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--JAVASCIRPT-->
+    <script src="main.js"></script>
+    <!--CSS3-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--ICONO-->
+    <link rel="shortcut icon" href="img/icono.jpg" type="image/x-icon">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>MonoLandia</title>
+    <!--FONT AWESEOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+
+<!--Menu de naavegación-->
+<header>
+        <nav class="navbar fixed-top navbar-expand-lg" id="menu">
+            <div class="container">
+                <a class="navbar-brand text-white fw-bold" href="#" >Mono<span class="landia">Landia</span></a>
+                <button class="navbar-toggler" onclick="cambioColor()" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-align-justify"></i></span>
+                </button>
+                <div class="collapse navbar-collapse text-center"  id="toggleMobileMenu">
+                    <ul class="navbar-nav mx-auto" id="reloco">
+                        <li class="nav-item">
+                            <a class="nav-link active me-3" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-3" aria-current="page" href="#Características">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-3" aria-current="page" href="#Habitat">Habitat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-3" aria-current="page" href="#Alimentación">Alimentación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-3" aria-current="page" href="#Multimedia">Multimedia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+<!--Primero-->
+    <section id="hero">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 coltext">
+                    <div class="principal">
+                        <small class="d-block text-primary mb-3" id="small"><span class="span1 fw-bold">Mono<span class="landia">Landia</span></span></small>
+                        <h1 class="fw-bold mb-4 text-white" id="cabecera1">Monos</h1>
+                            <p id="parrafo1">¿Querés aprender sobre estos primates?</p>
+                        <a href="#quees" class="empezar">Empezar!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<!--Segunda seccion-->
+<section class="mono" id="quees">
+        <div class="container pb-4">
+            <div class="row justify-content-center">
+                <h3 class="titulo text-center mt-5 mb-5 text-white" id="cabecera2">¿Qué es un Mono?</h3>
+                <div class="col-md-6 col-xs-12 col-sm-8">  
+                    <div class="align-content-start">
+                        <img src="img/fondo.jpeg" alt="Que es un mono">
+                    </div>
+                </div>  
+                    <div class="col-md-6 col-xs-12 col-sm-8">
+                        <div class="align-content-end">
+                            <p>Los <strong>monos</strong>, son primates que, por contar con características morfológicas similares a las del ser <strong>humano</strong>, reciben la calificación de antropoides. Es importante tener en cuenta que la noción de mono no tiene un valor taxonómico...</p>
+                            <a href="quees.html" id="btn-que">Más Información</a>
+                        </div>
+                    </div> 
+            </div>
+        </div>  
+</section>
+
+<!--TERCERA SECCION-->
+<section class="tercero">
+    <div class="container pb-4">
+        <div class="row">
+            <div class="col-md-4 col-xs-12 col-sm-12" id="col3">
+            <div class="card h-auto" id="Características">
+                <img src="img/foto1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <i class="fas fa-archive"></i>
+                    <h5 class="card-title text-center fw-bold" id="Características">Características</h5>
+                    <p class="card-text">La vida promedio del mono varía según su especie. Las más pequeñas viven unos 10 años, mientras que las especies más grandes pueden alcanzar los 50 años de edad...</p>
+                    <a href="Características.html"> Más Información</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-12" id="col3">
+            <div class="card  h-auto" id="Habitat">
+                <img src="img/foto2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <i class="fas fa-home"></i>
+                    <h5 class="card-title text-center fw-bold" id="Habitat">Habitat</h5>
+                    <p class="card-text">El hábitat del mono son las zonas cálidas y selváticas de la región ecuatorial, si bien cada especie se ha adaptado a condiciones específicas en sabanas y bosques...</p>
+                    <a href="Habitat.html">Más Información</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-12" id="col3">
+            <div class="card h-auto" id="Alimentación">
+                <img src="img/foto3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <i class="fas fa-seedling"></i>
+                    <h5 class="card-title text-center fw-bold" id="Alimentación">Alimentación</h5>
+                    <p class="card-text text-center">La dieta de los monos es variada, más o menos omnívora, aunque con predilección por frutos, semillas, cortezas, insectos y especies comunes en la copa de los árboles...</p>
+                    <a href="alimentación.html">Más Información</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+    <!--CUARTA SECCION-->
+<section class="Multimedia" id="Multimedia">
+    <div class="container">
+        <h3 class="titulo text-center">Multimedia</h3>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mt-2">
+                    <div class="card h-auto">
+                        <img src="img/slider1.jpeg" class="card-img">
+                    </div>
+                </div>
+                <div class="col mt-2">
+                    <div class="card h-auto">
+                        <img src="img/slider2.jpeg" class="card-img">
+                    </div>
+                </div>
+                <div class="col mt-2">
+                    <div class="card h-auto">
+                        <img src="img/slider3.jpeg" class="card-img">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 mt-4">
+                <div class="col mt-2">
+                    <div class="card h-auto" >
+                        <img src="img/slider4.jpeg" class="card-img">
+                    </div>
+                </div>
+                <div class="col mt-2">
+                    <div class="card h-auto">
+                        <img src="img/slider5.jpeg" class="card-img">
+                    </div>
+                </div>
+                <div class="col mt-2">
+                    <div class="card h-auto">
+                        <img src="img/slider6.jpeg" class="card-img">
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+<div id="carouselExampleControls" class="carousel slide d-none" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/slider1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/slider2.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/slider3.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/slider4.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/slider5.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/slider6.jpeg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+    <button type="button" class="btn-close" aria-label="Close"></button>
+</div>
+    
+<!--FOOTER-->
+<footer id="Contacto">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <section class="social">
+                    <p>Sigueme!</p>
+                    <div class="links">
+                        <a href="https://github.com/joakom24/" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/joaquínmussi/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <h3>&copy Joaquín Mussi</h3>
+                </section>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
